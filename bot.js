@@ -1,12 +1,11 @@
  const { Client, Util } = require('discord.js');
 const Discord = require('discord.js');
-const { GOOGLE_API_KEY } = 'AIzaSyDoOfXiOMIbGEmi4HI_IknlSlpJ4UqWFjw';
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
 const client = new Client({ disableEveryone: true });
 
-const youtube = new YouTube(GOOGLE_API_KEY);
+const youtube = new YouTube('AIzaSyDoOfXiOMIbGEmi4HI_IknlSlpJ4UqWFjw');
 
 const queue = new Map();
 
