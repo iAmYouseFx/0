@@ -10,6 +10,7 @@ const youtube = new YouTube('AIzaSyDoOfXiOMIbGEmi4HI_IknlSlpJ4UqWFjw');
 const queue = new Map();
 
 const p = "#";
+const PREFIX = "#";
 
 client.on('ready', () => {
   console.log('I\'m Online\nI\'m Online');
